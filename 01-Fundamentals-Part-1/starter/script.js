@@ -33,4 +33,13 @@ if(js === 'amazing') alert('Jss is fun')
   // undefined 
   // null
   // symbol
-  // bigInt
+  // bigIntcv
+
+  // declaring variableas we use let on variables that will change later
+
+  let age = 35
+  age = 20 // we mutate
+
+  const vana = 'girl' //not mutable
+  // and you can not declare a variable empty like this
+  // const vane; that is without asigning it to anything
