@@ -54,4 +54,29 @@ const now = 2037
   const ageJames =  now - 1991
   const ageSarah = now -1888
 
-  console.log(ageJames, ageSarah)
+  console.log(ageJames * 2, ageSarah / 10, 2**3 ) // "**"" is the exponential sign 2*3 + 2*3 +2*3
+
+  // plus operaator concatinating strings you 
+
+  const wah = girl
+  const vane = bride
+  const wahVane = wah +''+ vane
+
+   // plus operaator use to reasign a value 
+   let v = 1
+   v += 5
+
+   console.log(v)
+
+  //  same with multiplication and divisison
+   v *= 5
+
+   console.log(v)
+
+  //  comparism operators use to represent boolean values
+
+  console.log(ageJames > ageSarah)
+
+  //we have >= 0r <= or the === !===
+
+  const isFullAge = ageSarah >= 10
