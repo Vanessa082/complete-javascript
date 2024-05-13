@@ -104,3 +104,23 @@ const averageAge = ageJames + ageSarah / 2 // division come before mul so it wil
 console.log(averageAge) // the resul average will be greater than age to resolve this, we have to addd paranthesis 
 const averageAgeResolved = (ageJames + ageSarah) / 2 // the parenthesis is executed before the / sign sso everything inside the paranthesis can be executed
 
+// coding challange
+/* Mark and John are trying to compare their BMI (Body Max Index), which is 
+calculated using the formula BMI = mass/height ** 2 = mass / (height * height) 
+(mass is in kg and height in meter)
+
+1. store mark and ajohn mass and height in variables
+2. Calculate both their formulars using
+3. Create a boolean variable MarkhigherBMI than John
+*/
+
+const markMass = 78
+const markHeight = 1.69
+
+const markBMI = markMass / markHeight ** 2
+
+const johnMass = 92
+const johnHeight = 1.95
+
+const markHigherBMI = 
+const johnBMI = johnMass / markHeight ** 2
