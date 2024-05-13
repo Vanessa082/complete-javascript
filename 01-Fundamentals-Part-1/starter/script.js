@@ -11,7 +11,6 @@ if(js === 'amazing') alert('Jss is fun')
 
   // write your code to be discriptive
 
-
   let myFirstSchool = 'sTACO'
   let mySecondSchool = 'Rebase'
 
@@ -37,9 +36,22 @@ if(js === 'amazing') alert('Jss is fun')
 
   // declaring variableas we use let on variables that will change later
 
-  let age = 35
-  age = 20 // we mutate
+  let age = 35 // block scope
+  age = 20 // we mutate 
+
+  var cal = 34 //old way oof declaring a variable
 
   const vana = 'girl' //not mutable
   // and you can not declare a variable empty like this
   // const vane; that is without asigning it to anything
+
+  //operators in js
+
+  // allows us to transform variables 
+  // logical operators 
+  //mathematical operators
+const now = 2037
+  const ageJames =  now - 1991
+  const ageSarah = now -1888
+
+  console.log(ageJames, ageSarah)
