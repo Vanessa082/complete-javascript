@@ -18,3 +18,19 @@ if(js === 'amazing') alert('Jss is fun')
   // instead of 
   let school1 = 'Staco'
   let school2 = 'Rebase'
+
+  // primitive data types
+  // Number
+  // nUMBERS are always refered to floaing point no matter what all digits are refered to as numbers in js
+  let PIsecond  = 3.1415  //is a Number
+
+  // strings
+  let mySecondSchooll = 'Rebase' //is a string
+
+  //Boolean either true or false
+
+  let van = true
+  // undefined 
+  // null
+  // symbol
+  // bigInt
